@@ -21,8 +21,6 @@ def insert():
         db.insert_details(country,state,city,pressure,humidity)
         details = db.get_details()
         print(details)
-        for detail in details:
-            var = detail
         return render_template('index.html',var=var)
 
 if __name__ == "__main__":

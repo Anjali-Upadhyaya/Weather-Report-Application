@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather Information</title>
+  </head>
+  <body>
+    <form action="/insert" method="POST">
+      <label for="country">Country:</label>
+      <input type="text" id="country" name="country"><br><br>
+      
+      <label for="state">State:</label>
+      <input type="text" id="state" name="state"><br><br>
+      
+      <label for="city">City:</label>
+      <input type="text" id="city" name="city"><br><br>
+      
+      <label for="pressure">Pressure:</label>
+      <input type="text" id="pressure" name="pressure"><br><br>
+      
+      <label for="humidity">Humidity:</label>
+      <input type="text" id="humidity" name="humidity"><br><br>
+      
+      <input type="submit" value="Submit">
+    </form>
+
+    <h4> The details are:</h4>
+       {{var}}
+     
+    <br>
+    <br>
+    <hr>
+  </body>
+</html>
+
+
+
+
+
+
+
